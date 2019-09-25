@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: 'Titillium Web', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.emailListItem {
+  cursor: pointer;
+  padding: 8px 15px;
+  background-color: #f1f1f1;
+  color: rgb(56, 163, 196);
+  border-bottom: 1px solid #fff;
+  max-width: 100%;
+}
+.emailListItem:hover {
+  background-color: #fafafa;
+}
