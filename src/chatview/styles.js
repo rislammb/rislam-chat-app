@@ -6,7 +6,7 @@ const styles = theme => ({
     marginTop: 45,
     margin: 'auto',
     [theme.breakpoints.up(600)]: {
-      height: 'calc(100vh - 155px)',
+      height: 'calc(100vh - 105px)',
       maxWidth: 800,
       marginTop: 55
     }
