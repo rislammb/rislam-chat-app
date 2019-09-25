@@ -13,13 +13,7 @@ const firebase = require('firebase');
 require('firebase/firestore');
 
 firebase.initializeApp({
-  apiKey: 'AIzaSyBUWE8UmmlTfdFLrqipggL7032ZlrFzcPI',
-  authDomain: 'rislam-chat.firebaseapp.com',
-  databaseURL: 'https://rislam-chat.firebaseio.com',
-  projectId: 'rislam-chat',
-  storageBucket: 'rislam-chat.appspot.com',
-  messagingSenderId: '430987993874',
-  appId: '1:430987993874:web:c11eacf4f800864aaa09cb'
+  ..........
 });
 
 const theme = createMuiTheme({
